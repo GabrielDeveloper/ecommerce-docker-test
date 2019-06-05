@@ -1,0 +1,95 @@
+version: '3'
+
+services:
+
+  magento1.9.3.8-5.6:
+    image: thiagobarradas/magento:1.9.3.8-php5.6
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento1.9.3.8-7.0:
+    image: thiagobarradas/magento:1.9.3.8-php7.0
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento1.9.3.8-7.2:
+    image: thiagobarradas/magento:1.9.3.8-php7.2
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento1.9.4.0-5.6:
+    image: gabrieldeveloper/magento:1.9.4.0-php5.6
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+
+##### MAGENTO 2
+  magento2.1.8-7.0:
+    image: thiagobarradas/magento2:2.1.8-php7.0
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.1.8-5.6:
+    image: thiagobarradas/magento2:2.1.8-php5.6
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.2.0-7.0:
+    image: thiagobarradas/magento2:2.2.0-php7.0
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.2.0-7.1:
+    image: thiagobarradas/magento2:2.2.0-php7.1
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.2.3-7.0:
+    image: thiagobarradas/magento2:2.2.3-php7.0
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.2.3-7.1:
+    image: thiagobarradas/magento2:2.2.3-php7.1
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
