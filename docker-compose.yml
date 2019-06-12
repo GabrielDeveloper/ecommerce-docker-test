@@ -38,6 +38,41 @@ services:
       - "80:80"
     working_dir: /app
 
+  magento1.9.4.0-7.0:
+    image: gabrieldeveloper/magento:1.9.4.0-php7.0
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento1.9.4.0-7.2:
+      image: gabrieldeveloper/magento:1.9.4.0-php7.2
+      container_name: app
+      restart: always
+      tty: true
+      ports:
+        - "80:80"
+      working_dir: /app
+
+  magento1.9.4.1-7.0:
+    image: gabrieldeveloper/magento:1.9.4.1-php7.0
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento1.9.4.1-7.2:
+      image: gabrieldeveloper/magento:1.9.4.1-php7.2
+      container_name: app
+      restart: always
+      tty: true
+      ports:
+        - "80:80"
+      working_dir: /app
 
 ##### MAGENTO 2
   magento2.1.8-7.0:
