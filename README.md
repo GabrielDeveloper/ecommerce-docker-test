@@ -5,7 +5,7 @@
 
 ```
 //magento<version>-<php_version>
-$ docker-composer up -d magento1.9.3.8-7.0
+$ docker-compose up -d magento1.9.3.8-7.0
 ```
 
 ```
