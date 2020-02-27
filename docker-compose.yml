@@ -11,6 +11,15 @@ services:
       - "80:80"
     working_dir: /app
 
+  magento1.9.3.2-5.6:
+    image: thiagobarradas/magento:1.9.3.2-php5.6
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
   magento1.9.3.4-7.0:
     image: thiagobarradas/magento:1.9.3.4-php7.0
     container_name: app
