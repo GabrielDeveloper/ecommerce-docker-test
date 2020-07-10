@@ -156,17 +156,116 @@ services:
       - "80:80"
     working_dir: /app
 
+  magento2.2.5-7.1:
+    image: gabrieldeveloper/magento2:2.2.5-php7.1
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.2.6-7.1:
+    image: gabrieldeveloper/magento2:2.2.6-php7.1
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.2.7-7.1:
+    image: gabrieldeveloper/magento2:2.2.7-php7.1
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.2.11-7.2:
+    image: gabrieldeveloper/magento2:2.2.11-php7.2
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.3.0-7.2:
+    image: gabrieldeveloper/magento2:2.3.0-php7.2
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+  
   magento2.3.1-7.1:
-      image: gabrieldeveloper/magento2:2.3.1-php7.1
-      container_name: app
-      restart: always
-      tty: true
-      ports:
-        - "80:80"
-      working_dir: /app
+    image: gabrieldeveloper/magento2:2.3.1-php7.1
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
 
   magento2.3.1-7.2:
     image: gabrieldeveloper/magento2:2.3.1-php7.2
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.3.2-7.2:
+    image: gabrieldeveloper/magento2:2.3.2-php7.2
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.3.2-p2-7.2:
+    image: gabrieldeveloper/magento2:2.3.2-p2-php7.2
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.3.3-p1-7.3:
+    image: gabrieldeveloper/magento2:2.3.3-p1-php7.3
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.3.4-7.3:
+    image: gabrieldeveloper/magento2:2.3.4-php7.3
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.3.5-7.3:
+    image: gabrieldeveloper/magento2:2.3.5-php7.3
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  magento2.3.5-p1-7.3:
+    image: gabrieldeveloper/magento2:2.3.5-p1-php7.3
     container_name: app
     restart: always
     tty: true
