@@ -165,6 +165,15 @@ services:
       - "80:80"
     working_dir: /app
 
+  magento2.2.4-7.1:
+    image: gabrieldeveloper/magento2:2.2.4-php7.1
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
   magento2.2.5-7.1:
     image: gabrieldeveloper/magento2:2.2.5-php7.1
     container_name: app
