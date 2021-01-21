@@ -25,6 +25,7 @@ Magento 1
 - magento1.9.3.2-5.6
 ```
 
+```
 - magento1.9.3.4-5.5
 - magento1.9.3.4-7.0
 ```
