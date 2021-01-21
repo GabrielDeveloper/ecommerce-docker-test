@@ -1,6 +1,6 @@
 # Ecommerce Docker Test
 
-## Comands to run a container:
+## Commands to run a container:
 
 
 ```
