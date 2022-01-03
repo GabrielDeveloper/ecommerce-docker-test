@@ -290,3 +290,21 @@ services:
     ports:
       - "80:80"
     working_dir: /app
+
+  magento2.4.0-7.3:
+    image: gabrieldeveloper/magento2:2.4.0-php7.3
+    container_name: app
+    restart: always
+    tty: true
+    ports:
+      - "80:80"
+    working_dir: /app
+
+  elastic:
+    image: elasticsearch:7.8.1
+    container_name: elastic
+    environment:
+      - discovery.type=single-node
+    ports:
+      - "9300:9300"
+      - "9200:9200"
